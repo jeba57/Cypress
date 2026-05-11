@@ -15,6 +15,6 @@ it('read files using fixture', function(){
 
 
     it('write file using writefile() ',function (){
-        cy.writeFile('sample.txt','hello i am jeba here ')
+        cy.writeFile('sample.txt','hello i am jeba khatun ')
         cy.writeFile('sample.txt','i am learning cypress', {flag:'a+'})
     })
